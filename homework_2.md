@@ -15,7 +15,8 @@
 - 404 -not found
 
 
-# CSS
+# HTTP Requests
 - GET: creates new request using all required data in the URL
 - POST: updates existing request by sending the required information plus additional data in the message body.
 - PUT:  uses an existing request and changes the information in the message body
+- DELETE: delete a resource from the server.
