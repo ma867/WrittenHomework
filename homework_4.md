@@ -1,11 +1,10 @@
 ## What is Big O Notation? 
-- The complexity of data structures and algorithms with respect to space and/or 
-time 
+The complexity of data structures and algorithms with respect to space and/or time 
 - Every function, method, algorithm, or process will have a given 'complexity' 
   - The way we represent this complexity is with Big O Notation
 
 ## Big O, Omega and Theta
-- In academia, O, Omega, and Theta are used to describe runtimes
+In academia, O, Omega, and Theta are used to describe runtimes
 - Big 0: The algorithm’s upper bound
   - An algorithm is the most amount of time required, or worst case scenario
 - Big Omega (Ω): The algorithm’s lower bound
