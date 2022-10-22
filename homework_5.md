@@ -28,6 +28,9 @@ Class that implements the schema (The structure of our table) and gives us javas
 JavaScript syntax extension that allows us to turn HTML DOM elements into React components
 
 ## ❓ What is A View Engine?
+We can dynamically create routes using a template engine
+Request gets passed to express, which sents the request over to the view engine and the view engine will essentially create our UI by reading the template and turning it into html
+
 
 ## ❓ What is A DataController?
 The DataController contains all of the INDUCES functions thats allow us to process the requests sent by the user.
