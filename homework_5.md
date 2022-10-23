@@ -6,8 +6,10 @@ Node is not a programming language. Node.js is an open source server environment
 Express.js is not a framework. It is a Node.js web application server framework 
 
 ## ❓ What is the primary reason why Node/Express applications are so performant?
+It is very scallable because it can handle many jobs/processes at the same time. 
 
 ## ❓ Is...const el = document.getElementById('my-list');a valid JavaScript statement in a Node app? Why or Why Not?
+You cannot because Node apps are used to handle internal data only.
 
 ## ❓ What is a CRUD?
 Term describing basic operations performed on a database or any data storage. It stands for Create, Read, Update, Delete. They are the four fundamental functions of persistent storage
