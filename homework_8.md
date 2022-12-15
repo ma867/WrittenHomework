@@ -31,7 +31,22 @@ const firstFibs = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233];
 const fibsUnder100 = firstFibs.filter((fNum) => fNum < 100);
 // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ```
+
+### Reduce: The reduce() method reduces an array of values down to just one value. To get the output value, it runs a reducer function on each element of the array.
+
+```
+const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce(function (result, item) {
+  return result + item;
+}, 0);
+console.log(sum); // 10
+```
 ## What are all the Falsey Values in JavaScript? Why do you think this is important to know?
+Value that will return false in a boolean context.
+
+
 ## What are Async and Await?
+The word “async” before a function means one simple thing: a function always returns a promise. The "await" keyword makes the function pause the execution and wait for a resolved promise before it continues.
+
 ## What is an async function?
 ## What are try and catch?
