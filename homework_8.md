@@ -49,4 +49,7 @@ Value that will return false in a boolean context.
 The word “async” before a function means one simple thing: a function always returns a promise. The "await" keyword makes the function pause the execution and wait for a resolved promise before it continues.
 
 ## What is an async function?
+It simply allows us to write promises based code as if it was synchronous and it checks that we are not breaking the execution thread. It operates asynchronously via the event-loop. 
+
 ## What are try and catch?
+Key words to handle exceptions. So if the code we tried fails, we will catch it with code that usually will explain what the failure was.
